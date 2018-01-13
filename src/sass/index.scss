@@ -1,0 +1,221 @@
+/*  去掉标签默认的间距   */
+body,ul,ol,p,h1,h2,h3,h4,h4,h6,dl,dd,select,input,form{
+    margin:0;
+    padding:0;
+}
+/*  去掉小圆点以及数字   */
+ul,ol{
+    list-style:none;
+}
+/* 去掉下划线 */
+a{text-decoration:none;}
+
+/* 去掉斜体 */
+em{
+    font-style:normal;
+}
+/* 让h标签继承body的文字设置 */
+h1,h2,h3,h4,h4,h6{
+    font-size:100%;
+    font-weight:normal;
+}
+/* 在IE下去掉图片做链接时生成的框线 */
+img{
+    border:0px;
+}
+
+/* 清除浮动以及清除margin-top塌陷 */
+
+.clearfix:before,.clearfix:after{
+    content:'';
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+body{
+    font-family:'微软雅黑';
+    font-size:12px;
+}
+
+/*nav*/
+.main_menu_con{
+    height:40px;
+    border-bottom:2px solid #37ab40;
+    .main_menu{
+        width:1200px;
+        height:40px;
+        margin:0 auto;
+            h2{
+                width:200px;
+                height:40px;
+                background-color:#37ab40;
+                font:normal 14px/40px 'Microsoft Yahei';
+                color:#fff;
+                text-align:center;   
+            }
+            ul{
+                overflow: hidden;
+                li{
+                    float:left;
+                    height:40px;
+                    line-height:40px;
+                    text-align:center;
+                 
+                    a{
+                        padding:0 22px;
+                        border-left:1px solid #ddd;
+                        font-size:14px;
+                        color:#666;
+                        margin-left:-1px;
+                    }
+                    &:hover{
+                        a{
+                            color:#ff8800;;
+                        }
+                    }
+                }
+           }
+    }
+}
+/*banner*/
+.center_con2{
+    width:1200px;
+    height:270px;
+    margin:0 auto;
+    .sub_menu{
+        width:200px;
+        height:270px;
+        li{
+            width:198px;
+            height:44px;
+            border:1px solid #eee;
+            border-top:0px;
+            background:url(../images/icons.png) 177px -385px no-repeat;
+            a{
+                display:block;
+                height:44px;
+                line-height:44px;
+                font-size:14px;
+                color:#333;
+                text-indent:71px;
+                background:url(../images/icons.png) 32px -90px no-repeat;
+            
+            }
+            .icon02{
+                background-position:30px -140px;
+            }
+            .icon03{
+                background-position:32px -190px;
+            }
+            .icon04{
+                background-position:34px -240px;
+            }
+            .icon05{
+                background-position:32px -290px;
+            }
+            .icon06{
+                background-position:32px -340px;
+            }
+
+        }
+    }
+    .adv{
+        width:240px;
+        height:270px;
+        background-color: pink;
+        img{
+            display:block;
+        }
+    }
+}
+
+/*海鲜水产*/
+.common_model{
+    width:1200px;
+    height:335px;
+    margin:21px auto 0;
+    .common_title{
+        height:33px;
+        border-bottom:2px solid #42ad46;
+        h3{
+            float:left;
+            height:33px;
+            font:bold 16px/33px 'Microsoft Yahei';
+            color:#37ab40;
+        }
+        ul{
+            float:left;
+            margin-left:22px;
+            li{
+                float:left;
+                height:33px;
+                margin-left:15px;
+                a{
+                    line-height:33px;
+                    color:#666;
+                }
+                &:hover{
+                    color:#ff8800;
+                }
+                span{
+                    line-height:33px;
+                    color:#666;
+                }
+            }
+        }
+        .more{
+            height:33px;
+            font:normal 12px/33px 'Microsoft Yahei';
+            color:#666;
+        }
+        &:hover{
+            color:#ff8800;
+        }
+    }
+    .common_banner{
+        width:200px;
+        height:300px;
+    }
+    .common_goods_list{
+        width:1000px;
+        height:300px;
+        li{
+            float:left;
+            width:249px;
+            height:299px;
+            border-right:1px solid #ededed;
+            border-bottom:1px solid #ededed;
+            h4{
+                height:52px;
+                font:normal 14px/52px 'Microsoft Yahei';
+                color:#666;
+                text-align:center;
+            }
+            a{
+                display:block;
+                width:180px;
+                height:180px;
+                margin:0 auto;
+            }
+            div{
+                text-align:center;
+                font:bold 20px/40px 'Microsoft Yahei';
+                color:#c40000;
+                margin-top:22px;
+            }
+        }
+    }
+}

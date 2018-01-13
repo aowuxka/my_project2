@@ -1,0 +1,31 @@
+{
+	"res_code" : 0,
+	"res_error" : "",
+	"res_body" : {
+		"data" : [
+			{"id":1, "title":"草莓1", "price":112.11, "images" : "/images/goods_pic.jpg"},
+			{"id":2, "title":"草莓2", "price":10.99, "images" : "/images/goods_pic.jpg"},
+			{"id":3, "title":"草莓3", "price":60.00, "images" : "/images/goods_pic.jpg"},
+			{"id":4, "title":"草莓4", "price":54.11, "images" : "/images/goods_pic.jpg"},
+			{"id":5, "title":"草莓5", "price":845.12, "images" : "/images/goods_pic.jpg"},
+			{"id":6, "title":"草莓6", "price":611.59, "images" : "/images/goods_pic.jpg"},
+			{"id":7, "title":"草莓7", "price":88.18, "images" : "/images/goods_pic.jpg"},
+			{"id":8, "title":"草莓8", "price":112.54, "images" : "/images/goods_pic.jpg"},
+			{"id":9, "title":"草莓9", "price":10.55, "images" : "/images/goods_pic.jpg"},
+			{"id":10, "title":"草莓10", "price":60.55, "images" : "/images/goods_pic.jpg"}
+		],
+		"fdj" : [
+			{"id":1, "title":"草莓", "price":112.11,"img":"/images/goods_pic.jpg","ys":"已售122件","img2":"/images/b_goods_pic.jpg"},
+			{"id":2, "title":"草莓", "price":10.99,"img":"/images/goods_pic.jpg","ys":"已售1件","img2":"/images/b_goods_pic.jpg"},
+			{"id":3, "title":"草莓", "price":60.00,"img":"/images/goods_pic.jpg","ys":"已售333件","img2":"/images/b_goods_pic.jpg"},
+			{"id":4, "title":"草莓", "price":54.11,"img":"/images/goods_pic.jpg","ys":"已售124件","img2":"/images/b_goods_pic.jpg"}	,
+			{"id":5, "title":"草莓", "price":845.12,"img":"/images/goods_pic.jpg","ys":"已售122件","img2":"/images/b_goods_pic.jpg"},
+			{"id":6, "title":"草莓", "price":611.59,"img":"/images/goods_pic.jpg","ys":"已售1件","img2":"/images/b_goods_pic.jpg"},
+			{"id":7, "title":"草莓", "price":88.18,"img":"/images/goods_pic.jpg","ys":"已售333件","img2":"/images/b_goods_pic.jpg"},
+			{"id":8, "title":"草莓", "price":112.54,"img":"/images/goods_pic.jpg","ys":"已售124件","img2":"/images/b_goods_pic.jpg"},
+			{"id":9, "title":"草莓", "price":10.55,"img":"/images/goods_pic.jpg","ys":"已售333件","img2":"/images/b_goods_pic.jpg"},
+			{"id":10, "title":"草莓", "price":60.55,"img":"/images/goods_pic.jpg","ys":"已售124件","img2":"/images/b_goods_pic.jpg"}										
+		]
+		
+	}
+}

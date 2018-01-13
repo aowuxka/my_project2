@@ -1,0 +1,208 @@
+
+/*  去掉标签默认的间距   */
+body,ul,ol,p,h1,h2,h3,h4,h4,h6,dl,dd,select,input,form{
+    margin:0;
+    padding:0;
+}
+/*  去掉小圆点以及数字   */
+ul,ol{
+    list-style:none;
+}
+/* 去掉下划线 */
+a{text-decoration:none;}
+
+/* 去掉斜体 */
+em{
+    font-style:normal;
+}
+/* 让h标签继承body的文字设置 */
+h1,h2,h3,h4,h4,h6{
+    font-size:100%;
+    font-weight:normal;
+}
+/* 在IE下去掉图片做链接时生成的框线 */
+img{
+    border:0px;
+}
+
+/* 清除浮动以及清除margin-top塌陷 */
+
+.clearfix:before,.clearfix:after{
+    content:'';
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+body{
+    font-family:'微软雅黑';
+    font-size:12px;
+}
+
+    /*页面顶部*/
+.header_con{
+    height:29px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    .header{
+        width:1200px;
+        height:29px;
+        margin:0 auto;
+        .welcome,.user_login_btn,.user_info,.user_link{
+            height:29px;
+            line-height:29px;
+            color:#666;
+        }        
+        .user_login_btn a,.user_link a{
+            color:#666;
+        }
+        .user_login_btn a:hover,.user_link a:hover{
+            color:#ff8800;
+        }
+        .user_login_btn span,.user_link span{
+            color:#cecece;
+            padding:0 12px;
+        }
+        .user_info{
+            display:none;
+        }
+        .user_info em{
+            color:#ff8800;
+        }
+        
+    }
+}
+.center_con{
+    width:1200px;
+    height:115px;
+    margin:0 auto;
+    
+    .logo img{
+        margin-top:29px;
+        width:151px;
+        height:59px;
+        margin-left:17px;
+    }
+        .input_txt{
+            width:480px;
+            height:38px;
+            border:1px solid #37ab40;
+            margin-left:36px;
+            margin-top:29px;
+            margin:34px 0 0 124px;
+            padding-left: 33px;
+            background:url(../images/icons.png) 10px 10px no-repeat;
+        }
+        .input_sub{
+            width:100px;
+            height:40px;
+            background-color:#37ab40;
+            /* 去掉设置尺寸后产生的边框 */
+            border:0px;
+            font-size:14px;
+            color:#fff;
+            margin-top:34px;
+            /*  设置鼠标悬停时鼠标指针的形状为手型  */
+            cursor:pointer;
+        }
+        .info{
+            position: absolute;
+            top: 103px;
+            left: 332px;
+            border: 1px solid #37ab40;
+            line-height:20px;
+        }
+    }
+    .chart_con{
+        width:200px;
+        height:40px;
+        margin-top:34px;
+            a{
+                width:158px;
+                height:38px;
+                border:1px solid #ddd;
+                line-height:38px;
+                text-indent:56px;
+                font-size:14px;
+                color:#37ab40;
+                background:url("/images/icons.png") 12px -42px no-repeat #f7f7f7;  
+            }
+}
+.main_menu_con{
+    height:40px;
+    border-bottom:2px solid #37ab40;
+    .main_menu{
+        width:1200px;
+        height:40px;
+        margin:0 auto;
+            h2{
+                width:200px;
+                height:40px;
+                background-color:#37ab40;
+                font:normal 14px/40px 'Microsoft Yahei';
+                color:#fff;
+                text-align:center;   
+            }
+            ul{
+                overflow: hidden;
+                li{
+                    float:left;
+                    height:40px;
+                    line-height:40px;
+                    text-align:center;
+                 
+                    a{
+                        padding:0 22px;
+                        border-left:1px solid #ddd;
+                        font-size:14px;
+                        color:#666;
+                        margin-left:-1px;
+                    }
+                    &:hover{
+                        a{
+                            color:#ff8800;;
+                        }
+                    }
+                }
+           }
+    }
+}
+
+/*页面底部*/
+.footer{
+    margin-top:30px;
+    margin-bottom:34px;
+    border-top:2px solid #4ab14e;
+    .footer_links{
+        text-align:center;
+        margin-top:38px;
+        a,.footer_links span{
+            color:#4e4e4e;
+            font-size:12px;
+        
+        }
+        span{
+            margin:0 5px;
+        }
+    }
+    .copyright{
+        text-align:center;
+        font-size:12px;
+        color:#4e4e4e;
+        line-height:26px;
+        margin-top:9px 
+    }
+}

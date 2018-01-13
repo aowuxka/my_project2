@@ -1,0 +1,42 @@
+        .main{
+            margin: 50px;
+            color: #666;
+            margin-bottom: 250px;
+        }
+        .cart_title div, .product div {
+            width:100px;
+            height:30px;
+            line-height: 30px;
+            text-align: center;
+            border:1px solid #37ab40;
+            float:left;
+        }
+        .product div {
+            height: 90px;
+            line-height: 90px;
+            overflow: hidden;
+        }
+        .cart_title, .cart_body, .product {
+            clear:both;
+        }
+        .minus, .add {
+            width:20px;
+            height:30px;
+            line-height: 30px;
+            display: inline-block;
+            border:1px solid #37ab40;
+            cursor:pointer;
+        }
+        .cart_title .title, .product .title {
+            width:300px;
+        }
+        .total {
+            width:912px;
+            height:50px;
+            line-height: 50px;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            border: 1px solid #37ab40;
+            background: white;
+        }

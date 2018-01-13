@@ -1,0 +1,114 @@
+.box{
+    width: 1202px;
+    margin:0 auto;
+    /*background-color: yellow;*/
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+    .poi{
+        width: 400px;
+        height: 400px;
+        /*border:1px solid #dcdcdc;*/
+        float: left;
+        position: relative;
+        .img2{
+            width: 400px;
+            height: 400px;
+        }
+        /*.middle{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+    }
+    .big{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        left: 420px;*/
+        /*background-color: red;*/
+        /*display: none;
+        overflow: hidden;*/
+        /*.img3{
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            top:0;
+            left: 0;
+        }*/
+    }
+    .hui{
+        float: left;
+        margin-left: 45px;
+        .title{
+            height: 66px;
+            line-height: 66px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .price{
+            width: 616px;
+            height: 60px;
+            color: red;
+            line-height: 60px;
+            background-color: #f5f5f5;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p{
+            width: 616px;
+            height: 40px;
+            color: red;
+            border-bottom:1px solid #f5f5f5;
+        }
+        .sl{
+            height: 72px;
+            
+            div{
+                height: 28px;
+                float: left;
+                line-height: 28px;
+            }
+            .kuy{
+                margin-top: 20px;
+            }
+            .reduce,.add{
+                width: 24px;
+                height: 28px;
+                line-height: 28px;
+                border:1px solid #cecece;
+                margin-top: 20px;
+                background-color: #f5f5f5;
+                text-align: center;
+                cursor: pointer;
+                color: black;
+            }
+            .pu{
+                width: 36px;
+                height: 28px;
+                text-align: center;
+                border-top:1px solid #cecece;
+                border-bottom:1px solid #cecece;
+                margin-top: 20px;
+                line-height: 28px;
+            }
+        }
+        .add{
+            width: 260px;
+            height: 52px;
+            background-color: #e83b2d;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 52px;
+            cursor: pointer;
+        }
+    }
+}

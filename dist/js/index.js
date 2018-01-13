@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","carousel","load"],function(e,i){e(".slide").eq(0).carousel({imgs:[{src:"/images/slide.jpg",href:"#"},{src:"/images/slide02.jpg",href:"#"},{src:"/images/slide04.jpg",href:"#"}],width:760,height:270,type:"fade",duration:2e3})})});

@@ -1,0 +1,39 @@
+.xm_carousel_container {
+	position: relative;
+}
+
+.xm_carousel_container .imgs {
+	list-style: none;
+}
+.xm_carousel_container .pages {
+	height: 30px;
+	position: absolute;
+	bottom:0;
+}
+.xm_carousel_container .pages i {
+	width:10px;
+	height: 10px;
+	border-radius: 5px;
+	background:white;
+	display: inline-block;
+	margin:5px;
+}
+.xm_carousel_container .pages i.current {
+	background: #f00;
+}
+
+.xm_carousel_container .prev, .next {
+	width:45px;
+	height: 100px;
+	color:#fff;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	font-size: 20px;
+}
+.xm_carousel_container .next {
+	right:0;
+}

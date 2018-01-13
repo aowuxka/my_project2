@@ -1,0 +1,37 @@
+
+.buy{
+    width:1200px;
+    height:600px;
+    margin:21px auto 0;
+    .box{
+        float:left;
+        width:249px;
+        height:299px;
+        border-right:1px solid #ededed;
+        border-bottom:1px solid #ededed;
+        float: left;
+        width: 239px;
+        height: 299px;
+        border-right: 1px solid #ededed;
+        border-bottom: 1px solid #ededed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .price{
+            font: bold 20px/40px 'Microsoft Yahei';
+            color: #c40000;
+            margin-top: 22px;
+        }
+        .add{
+            width:100px;
+            background-color: #37ab40;
+            height:30px;
+            line-height:30px;
+            font-size:18px;
+            text-align:center;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+    }
+}

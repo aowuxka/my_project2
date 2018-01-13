@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表页面</title>
+		<link rel="stylesheet" href="/css/list.css" />
+		<link rel="stylesheet" href="/css/base.css" />
+		<script src="/lib/require.js" data-main="/js/list"></script>
+	</head>
+	<body>
+		<div class="header"></div>
+		<!--nav-->
+		<div class="main_menu_con">		
+		<div class="main_menu">
+			<h2 class="fl">商品列表</h2>
+			<ul class="fl">
+				<li><a href="register.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+				<li><a href="../index.html">首页</a></li>
+				<li class="cart"><a href="/html/cart.html" target="_blank">查看购物车</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="buy">
+			
+		</div>
+		
+		<!--模板引擎-->
+		<script type="text/html" id="list_template">
+			{{each products as product}}
+			<div class="box">
+				<div class="id" style="display:none">{{product.id}}</div>
+				<img src="{{product.images}}" class="images">
+				<div class="title">{{product.title}}</div>
+				<div class="price">¥{{product.price}}</div>
+				<div class="add">加入购物车</div>
+			</div>
+			{{/each}}
+		</script>
+		
+		<div class="footer"></div>
+	</body>
+</html>
