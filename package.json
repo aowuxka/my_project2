@@ -1,0 +1,23 @@
+{
+  "name": "my_project2",
+  "version": "1.0.0",
+  "description": "自述文件：\r \t项目：天天新鲜",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aowuxka/my_project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aowuxka/my_project2/issues"
+  },
+  "homepage": "https://github.com/aowuxka/my_project2#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1"
+  }
+}
